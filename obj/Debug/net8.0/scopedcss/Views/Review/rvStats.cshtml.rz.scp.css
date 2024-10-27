@@ -1,0 +1,89 @@
+*[b-i7fubf5s6r] {
+    box-sizing: border-box;
+}
+
+body[b-i7fubf5s6r] {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* Center website */
+    padding: 20px;
+}
+p[b-i7fubf5s6r] {
+    margin: 0px 0px 0px 0px;
+}
+
+.thisproduct-rating[b-i7fubf5s6r] {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.totalscore[b-i7fubf5s6r] {
+    border-radius: 5px;
+    border: solid 2px #7971ea;
+    min-height: 110px;
+    height: 110px;
+    max-height: 110px;
+    min-width: 110px;
+    width: 110px;
+    max-width: 110px;
+    text-align: center;
+    align-content: center;
+    > .tc-background {
+        background-color: #9a94f0;
+        width: 100%;
+        height: 100%;
+    }
+    > h1[b-i7fubf5s6r] {
+        position: relative;
+        margin-bottom: 0px;
+        top: -78px;
+        color: black;
+        font-size: 40px;
+    }
+}
+.ratevisualize[b-i7fubf5s6r] {
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+}
+.scorelabel[b-i7fubf5s6r], .votecount[b-i7fubf5s6r] {
+    > p {
+        margin: 0px;
+        font-size: 15px;
+    }
+    margin: 0px 10px 0px 0px;[b-i7fubf5s6r]
+}
+.scorelabel p[b-i7fubf5s6r] {
+    text-align: right;
+}
+.votecount p[b-i7fubf5s6r] {
+    text-align: left;
+}
+.ratebar[b-i7fubf5s6r] {
+    flex: 10;
+    align-content: center;
+    padding-top: 7px;
+}
+
+  .rb-middle[b-i7fubf5s6r] {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .rb-row[b-i7fubf5s6r]:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .rb-bar-container[b-i7fubf5s6r] {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+.rb-bar[b-i7fubf5s6r] {
+    background-color: #7971ea;
+    height: 8px;
+    margin: 0px 0px 10px 0px;
+}

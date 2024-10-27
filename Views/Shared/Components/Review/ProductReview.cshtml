@@ -1,0 +1,149 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<TDanhGia>
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/CommentFunction.styles.css" asp-append-version="true" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<div class="thisproduct-rating">
+    <div class="totalscore" style="background-color: gold;">
+        <h1>3/5</h1>
+    </div>
+    <div class="ratevisualize">
+        <div class="scorelabel">
+            <p>5</p>
+            <p>4</p>
+            <p>3</p>
+            <p>2</p>
+            <p>1</p>
+        </div>
+        <div class="ratebar">
+            <!-- scoreboard của w3school -->
+            <div class="rb-row">
+                <div class="rb-middle">
+                    <div class="rb-bar-container">
+                        <div class="rb-bar rb-bar-5" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="rb-middle">
+                    <div class="rb-bar-container">
+                        <div class="rb-bar rb-bar-4" style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="rb-middle">
+                    <div class="rb-bar-container">
+                        <div class="rb-bar rb-bar-3" style="width: 10%"></div>
+                    </div>
+                </div>
+                <div class="rb-middle">
+                    <div class="rb-bar-container">
+                        <div class="rb-bar rb-bar-2" style="width: 4%"></div>
+                    </div>
+                </div>
+                <div class="rb-middle">
+                    <div class="rb-bar-container">
+                        <div class="rb-bar rb-bar-1" style="width: 15%"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- scoreboard end -->
+        </div>
+        <div class="votecount">
+            <p>150</p>
+            <p>63</p>
+            <p>15</p>
+            <p>6</p>
+            <p>20</p>
+        </div>
+    </div>
+</div>
+
+<div class="makereview">
+    <div class="pointrating">
+        <p>Đánh giá sản phẩm</p>
+        <label>
+            <input type="radio" name="point" value="1">
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input type="radio" name="point" value="2">
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input type="radio" name="point" value="3">
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input type="radio" name="point" value="4">
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input type="radio" name="point" value="5">
+            <i class='bx bxs-star'></i>
+        </label>
+        <script>
+            const stars = document.querySelectorAll('input[name="point"]');
+            stars.forEach((star, index) => {
+                star.addEventListener('change', () => {
+                    document.querySelectorAll('.bx.bxs-star').forEach((icon) => {
+                        icon.style.color = 'gray';
+                    });
+                    for (let i = 0; i <= index; i++) {
+                        document.querySelectorAll('.bx.bxs-star')[i].style.color = 'rgb(255, 174, 0)';
+                    }
+                });
+            });
+        </script>
+    </div>
+    <div class="reviewcomment">
+        <textarea class="comment-text" name="comment-text" placeholder="Để lại cảm nghĩ của bạn"></textarea>
+    </div>
+    <input type="submit" value="Đăng">
+</div>
+
+@foreach (var s in Model)
+{
+    <div class="thereview">
+        <div class="customerreview">
+            <div class="reviewheader">
+                <div class="rvhead-userinfo">
+                    <img src="https://img.artpal.com/501431/3-19-9-25-15-39-55m.jpg" alt="avatar">
+                    <div>
+                        <p>@s.MaKhachHang</p>
+                        <p class="itembought">Áo rách 10k màu Cháo lòng</p>
+                    </div>
+                </div>
+                <div class="rvhead-crudoptions">
+                    <p>30/2/2069</p>
+                    <div class="truecscrud" style="display: true;">
+                        <a href=""><i class='bx bx-edit-alt'></i></a>
+                        <a href=""><i class='bx bx-trash'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="reviewbody">
+                <div class="reviewcontent">
+                    <span>@s.BinhLuan</span>
+                </div>
+                <div class="reviewvote">
+                    <a class="rvfoot-vote upvote">
+                        <i class='bx bx-like'></i>
+                        <p>10</p>
+                    </a>
+                    <a class="rvfoot-vote downvote">
+                        <i class='bx bx-dislike'></i>
+                        <p>1000</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+

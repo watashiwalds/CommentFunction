@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<TDanhGia>
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/CommentFunction.styles.css" asp-append-version="true" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+@foreach (var s in Model)
+{
+    <div class="thereview">
+        <div class="customerreview">
+            <div class="reviewheader">
+                <div class="rvhead-userinfo">
+                    <img src="https://img.artpal.com/501431/3-19-9-25-15-39-55m.jpg" alt="avatar">
+                    <div>
+                        <p>@s.MaKhachHang</p>
+                        <p class="itembought">Áo rách 10k màu Cháo lòng</p>
+                    </div>
+                </div>
+                <div class="rvhead-crudoptions">
+                    <p>30/2/2069</p>
+                    <div class="truecscrud" style="display: true;">
+                        <a href=""><i class='bx bx-edit-alt'></i></a>
+                        <form asp-action="Delete" asp-route-id="@s.MaDanhGia" method="post" style="display:inline">
+                            <button type="submit" style="background:none;border:none;color:red;">
+                                <i class='bx bx-trash'></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="reviewbody">
+                <div class="reviewcontent">
+                    <span>@s.BinhLuan</span>
+                </div>
+                <div class="reviewvote">
+                    <a class="rvfoot-vote upvote">
+                        <i class='bx bx-like'></i>
+                        <p>10</p>
+                    </a>
+                    <a class="rvfoot-vote downvote">
+                        <i class='bx bx-dislike'></i>
+                        <p>1000</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+

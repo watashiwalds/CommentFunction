@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* Center website */
+    padding: 20px;
+}
+p {
+    margin: 0px 0px 0px 0px;
+}
+
+.confirmform {
+    padding: 15px;
+    border-radius: 5px;
+    border-left: solid 5px rgb(255, 114, 114);
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    > label {
+        > input {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+}
+.bx-check, .bx-x {
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.bx-check {
+    border-radius: 5px;
+    border: solid 1px #7971ea;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+}
+.bx-check:hover {
+    border: solid 1px #7971ea;
+    background-color: #7971ea;
+    color: white;
+}
+.bx-check:active {
+    background-color: #6860db;
+}

@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CommentFunction
+build_property.RootNamespace = CommentFunction
+build_property.ProjectDir = E:\Software\Programing_Projects\CSharp\ASP_NET_MVC\CommentFunction\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Software\Programing_Projects\CSharp\ASP_NET_MVC\CommentFunction
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/SeeReviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VlUmV2aWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/globalRV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XGdsb2JhbFJWLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-wpdf2dte6a
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/rvDeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XHJ2RGVsZXRlQ29uZmlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hf0du0df4i
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/rvList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XHJ2TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-nnr8zed5p1
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/rvMaker.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XHJ2TWFrZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-do6jtpzw8q
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/rvReplyEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XHJ2UmVwbHlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-syevb4zvv7
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Review/rvStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XHJ2U3RhdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i7fubf5s6r
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/SeeReviews/MakeReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VlUmV2aWV3c1xNYWtlUmV2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-n8rzvzbu74
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/SeeReviews/Reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VlUmV2aWV3c1xSZXZpZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-fjebhj79qp
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Shared/Components/Review/ProductReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmV2aWV3XFByb2R1Y3RSZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qgj8f2s57b
+
+[E:/Software/Programing_Projects/CSharp/ASP_NET_MVC/CommentFunction/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9zhlfuc2r8

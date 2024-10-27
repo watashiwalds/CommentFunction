@@ -1,0 +1,65 @@
+*[b-syevb4zvv7] {
+    box-sizing: border-box;
+}
+
+body[b-syevb4zvv7] {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* Center website */
+    padding: 20px;
+}
+p[b-syevb4zvv7] {
+    margin: 0px 0px 0px 0px;
+}
+
+.makereview[b-syevb4zvv7] {
+    margin-left: auto;
+    max-width: 95%;
+    padding: 20px;
+    border: solid 1px lightgray;
+    border-right: solid 5px gold;
+    border-top: none;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+}
+.reviewcomment[b-syevb4zvv7] {
+    > textarea {
+        width: 100%;
+        height: 80px;
+        resize: none;
+        border: none;
+        border-bottom: solid 1px lightgray;
+    }
+    margin-bottom: 5px;[b-syevb4zvv7]
+}
+.action[b-syevb4zvv7] {
+    display: flex;
+    justify-content: space-between;
+    > label {
+        > input {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+}
+.bx-eraser[b-syevb4zvv7], .bxs-send[b-syevb4zvv7], .bx-x[b-syevb4zvv7] {
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.bxs-send[b-syevb4zvv7] {
+    border-radius: 5px;
+    border: solid 1px #7971ea;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+}
+.bxs-send:hover[b-syevb4zvv7] {
+    border: solid 1px #7971ea;
+    background-color: #7971ea;
+    color: white;
+}
+.bxs-send:active[b-syevb4zvv7] {
+    background-color: #6860db;
+}

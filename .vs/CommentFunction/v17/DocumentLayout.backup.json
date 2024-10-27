@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Software\\Programing_Projects\\CSharp\\ASP_NET_MVC\\CommentFunction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{550D2A1D-ACE8-43C0-933A-ED8034B95D76}|CommentFunction.csproj|e:\\software\\programing_projects\\csharp\\asp_net_mvc\\commentfunction\\data\\qlbandothoitrangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{550D2A1D-ACE8-43C0-933A-ED8034B95D76}|CommentFunction.csproj|solutionrelative:data\\qlbandothoitrangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{550D2A1D-ACE8-43C0-933A-ED8034B95D76}|CommentFunction.csproj|e:\\software\\programing_projects\\csharp\\asp_net_mvc\\commentfunction\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{550D2A1D-ACE8-43C0-933A-ED8034B95D76}|CommentFunction.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 277,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 277,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "E:\\Software\\Programing_Projects\\CSharp\\ASP_NET_MVC\\CommentFunction\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
+              "ToolTip": "E:\\Software\\Programing_Projects\\CSharp\\ASP_NET_MVC\\CommentFunction\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAqwCcBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T03:26:20.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLBanDoThoiTrangContext.cs",
+              "DocumentMoniker": "E:\\Software\\Programing_Projects\\CSharp\\ASP_NET_MVC\\CommentFunction\\Data\\QLBanDoThoiTrangContext.cs",
+              "RelativeDocumentMoniker": "Data\\QLBanDoThoiTrangContext.cs",
+              "ToolTip": "E:\\Software\\Programing_Projects\\CSharp\\ASP_NET_MVC\\CommentFunction\\Data\\QLBanDoThoiTrangContext.cs",
+              "RelativeToolTip": "Data\\QLBanDoThoiTrangContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T06:45:14.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* Center website */
+    padding: 20px;
+}
+p {
+    margin: 0px 0px 0px 0px;
+}
+
+.thisproduct-rating {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.totalscore {
+    border-radius: 5px;
+    border: solid 2px #7971ea;
+    min-height: 110px;
+    height: 110px;
+    max-height: 110px;
+    min-width: 110px;
+    width: 110px;
+    max-width: 110px;
+    text-align: center;
+    align-content: center;
+    > .tc-background {
+        background-color: #9a94f0;
+        width: 100%;
+        height: 100%;
+    }
+    > h1 {
+        position: relative;
+        margin-bottom: 0px;
+        top: -78px;
+        color: black;
+        font-size: 40px;
+    }
+}
+.ratevisualize {
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+}
+.scorelabel, .votecount {
+    > p {
+        margin: 0px;
+        font-size: 15px;
+    }
+    margin: 0px 10px 0px 0px;
+}
+.scorelabel p {
+    text-align: right;
+}
+.votecount p {
+    text-align: left;
+}
+.ratebar {
+    flex: 10;
+    align-content: center;
+    padding-top: 7px;
+}
+
+  .rb-middle {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .rb-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .rb-bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+.rb-bar {
+    background-color: #7971ea;
+    height: 8px;
+    margin: 0px 0px 10px 0px;
+}

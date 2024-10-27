@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* Center website */
+    padding: 20px;
+}
+
+.rvlist-per {
+    margin-bottom: 20px;
+}
+
+.customerreview {
+    max-width: 100%;
+    padding: 20px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    border-left: solid 5px #7971ea;
+    border-bottom: solid 5px #7971ea;
+    border-bottom-right-radius: 0px;
+}
+.reviewheader {
+    display: flex;
+    justify-content: space-between;
+}
+.rvhead-userinfo {
+    display: flex;
+    align-items: center;
+    > p {
+        margin: 0px 0px 0px 15px;
+        font-weight: bold;
+    }
+    > img {
+        min-width: 40px;
+        min-height: 40px;
+        max-width: 40px;
+        max-height: 40px;
+        border-radius: 5px;
+    }
+}
+.rvhead-crudoptions {
+    display: flex;
+    align-items: center;
+    > .truecscrud {
+        a {
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+        cursor: pointer;
+        color: black;
+        }
+        .delete {
+            color: red;
+        }
+        a:hover {
+            background-color: #7971ea;
+            color: white;
+        }
+    }
+}
+.reviewbody {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px 10px 55px;
+}
+.reviewfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        margin: 0px 0px 0px 0px;
+    }
+    > .timeandrate {
+        display: flex;
+        align-content: center;
+        > .reviewedstars {
+            margin-left: 10px;
+            padding-left: 10px;
+            border-left: solid 1px lightgray;
+        }
+    }
+    > .reviewreact {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        div {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin: 0px 5px 0px 5px;
+            padding: 0px 10px 0px 10px;
+            border: solid 1px #7971ea;
+            > i {
+                font-size: 20px;
+            }
+            > p {
+                margin-left: 5px;
+            }
+        }
+        div:hover {
+            background-color: #7971ea;
+            color: white;
+        }
+        div:active {
+            background-color: #6860db;
+        }
+    }
+}
+
+.votecasted {
+    background-color: #7971ea;
+    color: white;
+}
+
+.reply {
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.employeereply {
+    margin-left: auto;
+    max-width: 95%;
+    padding: 20px;
+    border: solid 1px lightgray;
+    border-right: solid 5px #7971ea;
+    border-top: none;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+}
+
+.listpagination {
+    display: flex;
+    justify-content: space-between;
+    > .pagefront
+
+{
+    text-align: start;
+    padding-right: 10px;
+    border-right: solid 1px lightgray;
+}
+
+> .pageend {
+    text-align: end;
+    padding-left: 10px;
+    border-left: solid 1px lightgray;
+}
+
+label {
+    height: 30px;
+}
+
+label, li {
+    cursor: pointer;
+}
+
+    label:hover {
+        background-color: lightgray;
+    }
+
+    label:active {
+        background-color: gray;
+    }
+
+    li:hover {
+        background-color: #7971ea;
+        color: white;
+    }
+
+    li:active {
+        background-color: #6860db;
+    }
+
+> .pagepicker {
+    flex: 3;
+    display: flex;
+    overflow-x: auto;
+    > ul
+
+{
+    flex: 4;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+:nth-child(1) {
+    justify-content: end;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    width: fit-content;
+    max-width: 40px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    border: solid 2px #7971ea;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+
+li {
+    height: 30px;
+    align-content: center;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+
+}
+
+i {
+    font-size: 30px;
+}
+
+}
+
+@media (max-width: 600px) { 
+    .globalaction span {
+        display: none;
+    }
+    .employeereply {
+        max-width: 90%;
+    }
+}

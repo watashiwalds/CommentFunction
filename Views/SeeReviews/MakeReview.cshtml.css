@@ -1,0 +1,339 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    /* Center website */
+    padding: 20px;
+}
+
+p {
+    margin: 0px 0px 0px 0px;
+}
+
+.thisproduct-rating {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+}
+
+.totalscore {
+    border-radius: 20px;
+    min-height: 110px;
+    max-height: 110px;
+    min-width: 110px;
+    max-width: 110px;
+    text-align: center;
+    align-content: center;
+    > h1
+
+{
+    color: white;
+}
+
+}
+
+.ratevisualize {
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.scorelabel, .votecount {
+    > p
+
+{
+    margin: 0px;
+    font-size: 15px;
+}
+
+margin: 0px 10px 0px 10px;
+}
+
+.scorelabel p {
+    text-align: right;
+}
+
+.votecount p {
+    text-align: left;
+}
+
+.ratebar {
+    flex: 10;
+    align-content: center;
+    padding-top: 7px;
+}
+
+.rb-middle {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.rb-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rb-bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.rb-bar {
+    background-color: #ff9800;
+    border-radius: 10px;
+    height: 8px;
+    margin: 0px 0px 10px 0px;
+}
+
+.makereview {
+    padding: 10px;
+    text-align: right;
+}
+
+.pointrating {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    > p
+
+{
+    margin: 0px 30px 0px 0px;
+}
+
+}
+
+
+.starrate + .bx {
+    cursor: pointer;
+    color: gray;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 24px;
+}
+
+.starrate:checked + .bx {
+    color: gold;
+}
+.starrate {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.reviewcomment {
+    > textarea
+
+{
+    width: 100%;
+    height: 80px;
+    resize: none;
+    padding: 10px;
+}
+
+margin-bottom: 10px;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+    input[type=submit]:hover {
+        background-color: #2196F3;
+        color: white;
+    }
+
+    input[type=submit]:active {
+        background-color: #0b7fdd;
+        color: white;
+    }
+
+.thereview {
+    margin: 10px;
+}
+
+.customerreview {
+    max-width: 100%;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 20px;
+}
+
+.reviewheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.rvhead-userinfo {
+    display: flex;
+    align-items: center;
+    > div
+
+{
+    display: flex;
+    > p
+
+{
+    margin: 0px 0px 0px 20px;
+}
+
+> .itembought {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+}
+
+> img {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 20px;
+}
+
+}
+
+.rvhead-crudoptions {
+    display: flex;
+    align-items: center;
+    > p
+
+{
+    margin: 0px 0px 0px 0px;
+}
+
+> .truecscrud a {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+}
+
+.reviewbody {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    > .reviewcontent
+
+{
+    margin-left: 30px;
+    padding: 10px 10px 10px 20px;
+    border-left: solid gray 1px;
+    text-align: left;
+}
+
+> .reviewvote {
+    display: block;
+    align-content: end;
+    > .rvfoot-vote
+
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    > p
+
+{
+    margin: 0px;
+}
+
+> i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+}
+}
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .pointrating {
+        justify-content: space-between;
+        > p
+
+{
+    margin: 0px 0px 0px 10px;
+}
+
+> label > .bx {
+    margin-right: 0px;
+}
+
+}
+
+.customerreview {
+    padding: 0px;
+    font-size: 16px;
+}
+
+.rvhead-userinfo {
+    > div
+
+{
+    display: block;
+}
+
+> div .itembought {
+    font-size: 10px;
+}
+
+}
+
+.rvhead-crudoptions {
+    display: block;
+    align-content: center;
+    text-align: right;
+    > .truecscrud
+
+{
+    > a
+
+{
+    margin: 0px;
+    font-size: 18px;
+    padding: 0px 6px 0px 6px;
+}
+
+}
+}
+
+.reviewbody {
+    .reviewcontent
+
+{
+    margin: 0px 5px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    border: none;
+}
+
+.reviewvote .rvfoot-vote {
+    > p, i
+
+{
+    font-size: 16px;
+}
+
+}
+}
+}

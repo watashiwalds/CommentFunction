@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/CommentFunction.styles.css" asp-append-version="true" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+@model TDanhGia
+
+<form asp-controller="SeeReviews" asp-action="Create" method="post" id="reviewForm">
+    <div class="pointrating">
+        <p>Đánh giá sản phẩm</p>
+        <!-- Điểm đánh giá (Diem) -->
+        <label>
+            <input class="starrate" asp-for="Diem" type="radio" name="Diem" value="1" />
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input asp-for="Diem" type="radio" name="Diem" value="2" class="starrate" />
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input asp-for="Diem" type="radio" name="Diem" value="3" class="starrate" />
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input asp-for="Diem" type="radio" name="Diem" value="4" class="starrate" />
+            <i class='bx bxs-star'></i>
+        </label>
+        <label>
+            <input asp-for="Diem" type="radio" name="Diem" value="5" class="starrate" />
+            <i class='bx bxs-star'></i>
+        </label>
+
+        <!-- Script để đổi màu sao dựa trên lựa chọn của người dùng -->
+        <script>
+            const stars = document.querySelectorAll('input[name="Diem"]');
+            stars.forEach((star, index) => {
+                star.addEventListener('change', () => {
+                    document.querySelectorAll('.bx.bxs-star').forEach((icon) => {
+                        icon.style.color = 'gray';
+                    });
+                    for (let i = 0; i <= index; i++) {
+                        document.querySelectorAll('.bx.bxs-star')[i].style.color = 'rgb(255, 174, 0)';
+                    }
+                });
+            });
+        </script>
+    </div>
+
+    <!-- Nhận xét (BinhLuan) -->
+    <div class="reviewcomment">
+        <label></label>
+        <textarea asp-for="BinhLuan" class="comment-text" placeholder="Để lại cảm nghĩ của bạn"></textarea>
+    </div>
+
+    <input type="submit" value="Đăng" />
+</form>
